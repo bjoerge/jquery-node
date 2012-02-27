@@ -9,17 +9,17 @@ Include it as a dependency in your project's package.json:
 ```json
 // (...)
 "dependencies": { // or in devDependencies
-  "expect.js": "git://github.com/bjoerge/jquery-node.git#master"
+  "jquery": "git://github.com/bjoerge/jquery-node.git#master"
 }
 // (..)
 ```
 
 Install it
 
-  $ npm install
+    $ npm install
   
 Use it
 
-  $ node
-  > $ = require("jquery")
-  > console.log($('<div></div>').html())
+    $ node
+    > $ = require("jquery")
+    > console.log($('<div></div>').html())
