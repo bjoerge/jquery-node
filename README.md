@@ -9,7 +9,7 @@ Include it as a dependency in your project's package.json:
 ```json
 // (...)
 "dependencies": { // or in devDependencies
-  "jquery": "git://github.com/bjoerge/jquery-node.git#master"
+  "jquery": "git://github.com/bjoerge/jquery-node.git#1.7.1"
 }
 // (..)
 ```
