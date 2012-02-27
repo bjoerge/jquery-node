@@ -10,8 +10,7 @@
   "engines": {
     "node": "~0.6.10"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "jsdom": "0.2.10",
     "location": "0.0.1",
     "navigator": "1.0.1",
