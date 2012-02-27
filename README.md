@@ -21,5 +21,5 @@ Install it
 Use it
 
     $ node
-    > $ = require("jquery")
-    > console.log($('<div></div>').html())
+    > $('<div>Hello world</div>').html()
+    'Hello world'
