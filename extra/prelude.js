@@ -13,4 +13,4 @@
     return window;
   };
 
-  window || (window = __createWindow());
+  if (typeof window === 'undefined') window = __createWindow();

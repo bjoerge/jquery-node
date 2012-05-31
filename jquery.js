@@ -13,7 +13,7 @@
     return window;
   };
 
-  window || (window = __createWindow());
+  if (typeof window === 'undefined') window = __createWindow();
 /*!
  * jQuery JavaScript Library v1.7.2
  * http://jquery.com/
@@ -9421,4 +9421,4 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
   if (typeof exports != 'undefined' && typeof module.exports != 'undefined') module.exports = window.jQuery;
 
-}(this, window));
+}(this, typeof window === 'undefined' ? undefined : window));

@@ -1,4 +1,4 @@
 
   if (typeof exports != 'undefined' && typeof module.exports != 'undefined') module.exports = window.jQuery;
 
-}(this, window));
+}(this, typeof window === 'undefined' ? undefined : window));
