@@ -1,4 +1,4 @@
-(function(global) {
+(function(global, window) {
   var __createWindow = function() {
     var jsdom = require("jsdom").jsdom,
     document = jsdom(),
@@ -13,4 +13,4 @@
     return window;
   };
 
-  var window = global.document ? global : __createWindow();
+  window || (window = __createWindow());

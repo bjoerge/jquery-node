@@ -1,4 +1,4 @@
-(function(global) {
+(function(global, window) {
   var __createWindow = function() {
     var jsdom = require("jsdom").jsdom,
     document = jsdom(),
@@ -13,7 +13,7 @@
     return window;
   };
 
-  var window = global.document ? global : __createWindow();
+  window || (window = __createWindow());
 /*!
  * jQuery JavaScript Library v1.7.2
  * http://jquery.com/
@@ -9421,4 +9421,4 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
   if (typeof exports != 'undefined' && typeof module.exports != 'undefined') module.exports = window.jQuery;
 
-}(this));
+}(this, window));
