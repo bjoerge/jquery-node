@@ -1,8 +1,8 @@
 (function(global, window) {
   var __createWindow = function() {
-    var jsdom = require("jsdom").jsdom,
-    document = jsdom(),
-    window   = document.createWindow();
+    var jsdom = require("jsdom"),
+        document = jsdom.jsdom('<html><body></body></html>'),
+        window   = document.createWindow();
 
     window.document = document;
     window.location = require('location');
