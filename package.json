@@ -2,7 +2,7 @@
   "author": "Bjørge Næss <bjoerge@bengler.no>",
   "name": "jquery",
   "description": "jQuery for node.js",
-  "version": "1.7.2",
+  "version": "1.8.0",
   "repository": {
     "url": "http://github.com/bjoerge/jquery-node"
   },
@@ -16,7 +16,6 @@
     "navigator": "latest",
     "xmlhttprequest": "latest"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "optionalDependencies": {}
 }
