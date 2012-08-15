@@ -11,12 +11,12 @@
     "node": "*"
   },
   "dependencies": {
-  },
-  "devDependencies": {
     "jsdom": "latest",
     "location": "latest",
     "navigator": "latest",
-    "xmlhttprequest": "latest"    
+    "xmlhttprequest": "latest"
+  },
+  "devDependencies": {
   },
   "optionalDependencies": {}
 }
