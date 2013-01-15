@@ -9570,6 +9570,6 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 
 })( window );
 
-  if (typeof exports != 'undefined' && typeof module.exports != 'undefined') module.exports = window.jQuery.noConflict();
+  if (typeof exports != 'undefined' && typeof module.exports != 'undefined') module.exports = window.jQuery.noConflict(true);
 
 }(this, typeof window === 'undefined' ? undefined : window));
