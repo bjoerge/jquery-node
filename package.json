@@ -11,10 +11,10 @@
     "node": "*"
   },
   "dependencies": {
-    "jsdom": "latest",
-    "location": "latest",
-    "navigator": "latest",
-    "xmlhttprequest": "latest"
+    "jsdom": "0.3.x",
+    "location": "0.0.x",
+    "navigator": "1.0.x",
+    "xmlhttprequest": "1.5.x"
   },
   "devDependencies": {},
   "optionalDependencies": {}
