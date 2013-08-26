@@ -1,4 +1,4 @@
-(function(global, window) {
+(function(window) {
   var __createWindow = function() {
     var jsdom = require("jsdom"),
         document = jsdom.jsdom('<html><body></body></html>'),
